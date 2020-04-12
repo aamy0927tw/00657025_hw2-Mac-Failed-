@@ -7,16 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		330FA5752442C9710017AC82 /* Special.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330FA5742442C9710017AC82 /* Special.swift */; };
+		3364F090243EF9F700F38B47 /* RestaurantRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3364F08F243EF9F700F38B47 /* RestaurantRow.swift */; };
+		3364F092243EFBCC00F38B47 /* RestaurantList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3364F091243EFBCC00F38B47 /* RestaurantList.swift */; };
+		3364F094243EFEB700F38B47 /* RestaurantDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3364F093243EFEB700F38B47 /* RestaurantDetail.swift */; };
 		47124292243C9B7700EA27DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47124291243C9B7700EA27DA /* AppDelegate.swift */; };
 		47124294243C9B7700EA27DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47124293243C9B7700EA27DA /* SceneDelegate.swift */; };
 		47124296243C9B7700EA27DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47124295243C9B7700EA27DA /* ContentView.swift */; };
 		47124298243C9B7800EA27DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47124297243C9B7800EA27DA /* Assets.xcassets */; };
 		4712429B243C9B7800EA27DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4712429A243C9B7800EA27DA /* Preview Assets.xcassets */; };
 		4712429E243C9B7800EA27DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4712429C243C9B7800EA27DA /* LaunchScreen.storyboard */; };
+		471242A6243CA25800EA27DA /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471242A5243CA25800EA27DA /* Restaurant.swift */; };
+		471242A8243CA39900EA27DA /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471242A7243CA39900EA27DA /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4712428E243C9B7700EA27DA /* 00657025_hw2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 00657025_hw2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		330FA5742442C9710017AC82 /* Special.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Special.swift; sourceTree = "<group>"; };
+		330FA57824430C610017AC82 /* 00657025_hw2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = 00657025_hw2.entitlements; sourceTree = "<group>"; };
+		3364F08F243EF9F700F38B47 /* RestaurantRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantRow.swift; sourceTree = "<group>"; };
+		3364F091243EFBCC00F38B47 /* RestaurantList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantList.swift; sourceTree = "<group>"; };
+		3364F093243EFEB700F38B47 /* RestaurantDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetail.swift; sourceTree = "<group>"; };
+		4712428E243C9B7700EA27DA /* Food Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47124291243C9B7700EA27DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47124293243C9B7700EA27DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		47124295243C9B7700EA27DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +35,8 @@
 		4712429A243C9B7800EA27DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4712429D243C9B7800EA27DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4712429F243C9B7800EA27DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		471242A5243CA25800EA27DA /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		471242A7243CA39900EA27DA /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +61,7 @@
 		4712428F243C9B7700EA27DA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4712428E243C9B7700EA27DA /* 00657025_hw2.app */,
+				4712428E243C9B7700EA27DA /* Food Guide.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,9 +69,16 @@
 		47124290243C9B7700EA27DA /* 00657025_hw2 */ = {
 			isa = PBXGroup;
 			children = (
+				330FA57824430C610017AC82 /* 00657025_hw2.entitlements */,
 				47124291243C9B7700EA27DA /* AppDelegate.swift */,
 				47124293243C9B7700EA27DA /* SceneDelegate.swift */,
 				47124295243C9B7700EA27DA /* ContentView.swift */,
+				471242A5243CA25800EA27DA /* Restaurant.swift */,
+				330FA5742442C9710017AC82 /* Special.swift */,
+				3364F08F243EF9F700F38B47 /* RestaurantRow.swift */,
+				3364F091243EFBCC00F38B47 /* RestaurantList.swift */,
+				3364F093243EFEB700F38B47 /* RestaurantDetail.swift */,
+				471242A7243CA39900EA27DA /* Data.swift */,
 				47124297243C9B7800EA27DA /* Assets.xcassets */,
 				4712429C243C9B7800EA27DA /* LaunchScreen.storyboard */,
 				4712429F243C9B7800EA27DA /* Info.plist */,
@@ -92,7 +112,7 @@
 			);
 			name = 00657025_hw2;
 			productName = 00657025_hw2;
-			productReference = 4712428E243C9B7700EA27DA /* 00657025_hw2.app */;
+			productReference = 4712428E243C9B7700EA27DA /* Food Guide.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -146,8 +166,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				471242A6243CA25800EA27DA /* Restaurant.swift in Sources */,
+				471242A8243CA39900EA27DA /* Data.swift in Sources */,
 				47124292243C9B7700EA27DA /* AppDelegate.swift in Sources */,
+				330FA5752442C9710017AC82 /* Special.swift in Sources */,
+				3364F092243EFBCC00F38B47 /* RestaurantList.swift in Sources */,
 				47124294243C9B7700EA27DA /* SceneDelegate.swift in Sources */,
+				3364F094243EFEB700F38B47 /* RestaurantDetail.swift in Sources */,
+				3364F090243EF9F700F38B47 /* RestaurantRow.swift in Sources */,
 				47124296243C9B7700EA27DA /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,7 +310,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = 00657025_hw2/00657025_hw2.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"00657025_hw2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = 00657025_hw2/Info.plist;
@@ -293,7 +322,8 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.user12.-0657025-hw2";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Food Guide";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -303,7 +333,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = 00657025_hw2/00657025_hw2.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"00657025_hw2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = 00657025_hw2/Info.plist;
@@ -312,7 +345,8 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.user12.-0657025-hw2";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Food Guide";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
